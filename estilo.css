@@ -1,24 +1,43 @@
-body {
-  background: white
+body{
+  background: cyan
 }
 h1 {
   text-align: center;
 }
 .caixa1 {
-  position: absolute;
-  background:purple;
+  position:absolute;
+  background: pink;
   width: 200px;
-  height:200px;
-  color: #ffffff;
-  right:45%;
-  top: 35%;
+  height: 200px;
+  color:  black;
+  left: 40%
 }
 .caixa2 {
   position: absolute;
-  background: red;
+  background: pink;
   width: 200px;
-  height: 200px;
-  color: #ffffff;
-  right: 45%;
-  top: 35%;
+  heigth: 700px;
+  color: black;
+  left: 55%;
+}
+.menuprincipal { 
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  background: rgb(233, 250, 0);
+  top: 0;
+  left: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
 }
