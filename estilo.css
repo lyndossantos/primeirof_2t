@@ -39,5 +39,30 @@ li {
 }
 li a {
   display: block;
+  color: white (255, 255, 255);
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover {
   color: white;
+  background: violet;
+}
+#imagem {
+  width: 50%;
+}
+.boxImage {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  background: rgb(192, 152, 192);
+  top: 10px;
+  left: 0%;
+  margin: 20px;
+  border-color: rgb(14, 230, 201);
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
 }
