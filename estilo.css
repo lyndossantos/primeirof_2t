@@ -1,5 +1,5 @@
 body{
-  background: cyan;
+  background: rgb(108, 117, 117);
   margin: 0%;
   padding: 0%;
   
@@ -54,13 +54,13 @@ li a:hover {
 #imagem {
   width: 50%;
 }
-.boxImage {
+.boxarvore {
   display: flex;
   justify-content: center;
   position: absolute;
   width: 100%;
   height: 99%;
-  background: rgb(192, 152, 192);
+  background: rgb(8, 8, 8);
   top: 10px;
   left: 0%;
   margin: 20px;
@@ -76,6 +76,10 @@ li a:hover {
 #rodape {
   width: 100%;
   height: 35px;
-  background: #000000;
+  background: #74626a;
   color: #FFFFFF;
+}
+h1 {
+  text-align: center;
+  font-style: italic;
 }
