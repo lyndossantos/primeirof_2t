@@ -1,8 +1,7 @@
 body{
-  background: rgb(108, 117, 117);
   margin: 0%;
   padding: 0%;
-  
+  color: black;
 }
 h1 {
   text-align: center;
@@ -17,17 +16,17 @@ h1 {
 }
 .caixa2 {
   position: absolute;
-  background: pink;
+  background: rgb(185, 152, 223);
   width: 200px;
-  heigth: 700px;
+   height: 700px;
   color: black;
   left: 55%;
 }
-.menuprincipal { 
+.menuPrincipal { 
   position: absolute;
   width: 100%;
-  height: 100px;
-  background: rgb(233, 250, 0);
+  height: 45px;
+  background: rgb(214, 184, 235);
   top: 0;
   left: 0;
 }
@@ -42,13 +41,13 @@ li {
 }
 li a {
   display: block;
-  color: white (255, 255, 255);
+  color: rgb(250, 246, 246) (255, 255, 255);
   padding: 14px 16px;
   text-align: center;
   text-decoration: none;
 }
 li a:hover {
-  color: white;
+  color: rgb(17, 17, 17);
   background: violet;
 }
 #imagem {
@@ -64,7 +63,7 @@ li a:hover {
   top: 10px;
   left: 0%;
   margin: 20px;
-  border-color: rgb(14, 230, 201);
+  border-color: rgb(184, 138, 190);
   border-width: 20px;
   border-style: solid;
   padding: 20px;
@@ -73,11 +72,13 @@ li a:hover {
   position: absolute;
   top: 45px;
 }
-#rodape {
+.rodape {
+  position: absolute;
   width: 100%;
   height: 35px;
-  background: #74626a;
+  background: #d5b9d6;
   color: #FFFFFF;
+  bottom: 0;
 }
 h1 {
   text-align: center;
