@@ -51,7 +51,7 @@ li a:hover {
   background: violet;
 }
 #imagem {
-  width: 50%;
+  width: 100%;
 }
 .boxarvore {
   display: flex;
@@ -61,16 +61,18 @@ li a:hover {
   height: 99%;
   background: rgb(8, 8, 8);
   top: 10px;
-  left: 0%;
-  margin: 20px;
+  left: 100%;
+  margin: 100px;
   border-color: rgb(184, 138, 190);
-  border-width: 20px;
+  border-width: 500px;
   border-style: solid;
   padding: 20px;
 }
 .conteudo {
   position: absolute;
-  top: 45px;
+  top: 55px;
+  text-align: center;
+  
 }
 .rodape {
   position: absolute;
@@ -81,6 +83,9 @@ li a:hover {
   bottom: 0;
 }
 h1 {
-  text-align: center;
+  text-align: center; 
   font-style: italic;
+
 }
+
+
